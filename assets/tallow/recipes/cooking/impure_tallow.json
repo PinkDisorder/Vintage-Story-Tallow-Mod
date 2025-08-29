@@ -2,11 +2,18 @@
   "code": "impure_tallow",
   "shape": { "base": "game:block/food/meal/porridge" },
   "ingredients": [
+	{
+		"code": "water",
+		"validStacks": [ { "type": "item", "code": "game:waterportion" } ],
+		"minQuantity": 1,
+		"maxQuantity": 3,
+		"portionSizeLitres": 1
+	},
     {
       "code": "fat",
       "validStacks": [ { "type": "item", "code": "game:fat" } ],
       "minQuantity": 2,
-      "maxQuantity": 2
+      "maxQuantity": 6
     }
   ],
   "cooksInto": { "type": "item", "code": "tallow:impure_tallow", "quantity": 2 }
