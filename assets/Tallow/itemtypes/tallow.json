@@ -1,5 +1,5 @@
 {
-	"code": "impure_tallow",
+	"code": "tallow",
 	"shape": {
 		"base": "game:item/stone"
 	},
@@ -11,7 +11,8 @@
 		"items": [ "*" ]
 	},
 	"behaviors": [
-		{ "name": "GroundStorable",
+		{
+			"name": "GroundStorable",
 			"properties": {
 				"layout": "Stacking",
 				"placeRemoveSound": "game:sounds/block/leather",

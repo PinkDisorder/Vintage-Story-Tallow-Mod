@@ -14,6 +14,6 @@
   "cooksInto": {
     "type": "Item",
     "code": "impure_tallow",
-    "quantity": 100
+    "quantity": 2
   }
 }

@@ -21,7 +21,7 @@
 	},
 	"returnedStack": {
 		"type": "block",
-		"code": "game:linen-{type}",
+		"code": "game:linen-normal-down",
 		"quantity": 1
 	}
 }
