@@ -1,0 +1,8 @@
+{
+  "type": "content",
+  "modid": "tallow",
+  "name": "VividVoid's Tallow Mod",
+  "authors": [ "VividVoid" ],
+  "description": "A simple mod adding tallow.",
+  "version": "0.0.1"
+}

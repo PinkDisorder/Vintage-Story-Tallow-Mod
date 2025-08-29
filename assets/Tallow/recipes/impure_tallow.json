@@ -1,0 +1,19 @@
+{
+  "code": "impure_tallow",
+  "shape": {
+    "base": "block/food/meal/porridge"
+  },
+  "ingredients": [
+    {
+      "code": "game:fat",
+      "validStacks": [ { "type": "item", "code": "game:fat" } ],
+      "minQuantity": 2,
+      "maxQuantity": 2
+    }
+  ],
+  "cooksInto": {
+    "type": "Item",
+    "code": "impure_tallow",
+    "quantity": 100
+  }
+}

@@ -1,0 +1,116 @@
+{
+	"code": "impure_tallow",
+	"shape": {
+		"base": "game:item/stone"
+	},
+	"texture": {
+		"base": "game:item/resource/fat"
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"behaviors": [
+		{ "name": "GroundStorable",
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/leather",
+				"stackingModel": "game:item/stone-pile",
+				"upSolid": false,
+				"modelItemsToStackSizeRatio": 0.5,
+				"stackingCapacity": 16,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 4,
+				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.14, "z2": 1 },
+				"cbScaleYByLayer": 0.06
+			}
+		}
+	],
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"canSealCrock": true
+	},
+	"maxstacksize": 16,
+	"materialDensity": 920,
+	"combustibleProps": {
+		"burnTemperature": 200,
+		"burnDuration": 96
+	},
+	"nutritionProps": {
+		"saturation": 200,
+		"foodcategory": "Protein"
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 2,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 150,
+			"y": -38,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 2.8
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0.05,
+			"y": 0.2,
+			"z": 0
+		},
+		"rotation": {
+			"x": 94,
+			"y": 95,
+			"z": -21
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 1.78
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.7,
+			"y": -0.12,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": -44,
+			"y": 7,
+			"z": -9
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 0.7
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.5
+	}
+}
