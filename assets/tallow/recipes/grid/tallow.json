@@ -4,9 +4,10 @@
 		"W": {
 			"type": "block",
 			"code": "game:linen-*",
+			"name": "linen",
 			"returnedStack": {
 				"type": "block",
-				"code": "game:linen-normal-down",
+				"code": "game:linen-{linen}",
 				"quantity": 1
 			}
 		},
