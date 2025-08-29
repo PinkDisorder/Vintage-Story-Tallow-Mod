@@ -1,1 +1,0 @@
-A big thanks to Jayu for all of their help on discord
