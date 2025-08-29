@@ -2,5 +2,5 @@
 	"tallow:item-tallow": "Tallow",
 	"tallow:item-impure_tallow": "Impure Tallow",
     "tallow:itemdesc-tallow": "Mix 3 with a wick of flax in a pot to make a candle.",
-    "tallow:itemdesc-impure_tallow": "Filter it with a piece of linen to get Tallow."
+    "tallow:itemdesc-impure_tallow": "Filter it with a piece of linen to get Tallow (Returns the used linen)."
 }
